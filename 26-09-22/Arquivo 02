@@ -12,5 +12,18 @@ FROM {nome_tabela1}, {nome_tabela2}
 WHERE pk = fk;
 
 ERROS COMUNS NA UTILIZAÇÃO DO JOIN:
-Um dos erros mais comuns é a referenciação erronea da comparação após o WHERE pois comparam o id ao invés da FK
-O
+* Um dos erros mais comuns é a referenciação erronea da comparação após o WHERE pois comparam o id ao invés da FK
+* Outro erro recorrente é compara uma FK sem a devida referência 
+
+1.	Em que caso devemos utilizar o JOIN? Quais tabelas podem ser utilizando em um comando JOIN?
+O uso dos JOIN é essencial para conectar os dados entre as tabelas no banco de dados, possibilitando utilizar as tabelas que tem algum relacionamento entre si, ou seja uma
+caso de dependência entre uma tabela para com outra 
+
+2.	No caso do JOIN, o que é condição de junção. Qual cuidado devemos ter. 
+ vários tipos de junções, como junção interna, junção externa (junção externa esquerda ou junção esquerda,
+ junção externa direita ou junção direita e junção externa completa ) e auto-adesão.  
+ A sintaxe é um pouco diferente do que você já viu até agora: A condição está contido em um EM cláusula em vez de numa ONDE cláusula.
+
+3.	Em relação a sintaxe, em um JOIN não é necessário utilizarmos condições (WHERE) - o comando irá executar normalmente. Porém, em questão de semântica, a cada junção é necessário ter ao menos 1 condição. Explique.
+4.	O que é produto cartesiano? Como funciona? Qual a relação com o JOIN.
+5.	Na elaboração de um consulta que envolve 1587 tabelas, serão necessários, quantas condições de junção?
