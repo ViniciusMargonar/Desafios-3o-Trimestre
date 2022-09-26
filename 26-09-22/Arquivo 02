@@ -23,6 +23,12 @@ caso de dependência entre uma tabela para com outra
  vários tipos de junções, como junção interna, junção externa (junção externa esquerda ou junção esquerda,
  junção externa direita ou junção direita e junção externa completa ) e auto-adesão.  
  A sintaxe é um pouco diferente do que você já viu até agora: A condição está contido em um EM cláusula em vez de numa ONDE cláusula.
+ 
+ 
+ 3.CUIDADOS ESSÊNCIAS PARA ELABORAR UM JOIN
+É importante que as tabelas sejam associadas em pares mesmo que podem ser juntadas com apenas um só comando, para isso é necessário uma chave estrangeira de uma tabela
+para ralacionar em outra. Os valores dentro da tabela tem de ser comparadas por um operador lógico que é definido pelo JOIN e utilizada pelo operador ON,
+como sinal de =, quando o CROSS JOIN for usado sem a clausula ON, poderão ser usados parênteses para indicar a junção.
 
 3.	Em relação a sintaxe, em um JOIN não é necessário utilizarmos condições (WHERE) - o comando irá executar normalmente. Porém, em questão de semântica, a cada junção é necessário ter ao menos 1 condição. Explique.
 4.	O que é produto cartesiano? Como funciona? Qual a relação com o JOIN.
