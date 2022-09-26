@@ -1,0 +1,16 @@
+SINTAXE DAS JUNÇÊS DO JOIN:
+A sintaxe básica para um Join tem base e relação com um plano cartesiano portanto é preciso tabelas que tenham relação para que a combinação faça sentido, 
+ademais para que os relacionamentos façam sentido é necessário o uso da comparação da PK de uma tabela com a FK referenciando a pk da tabela tendo portanto a
+Sintaxe descrita abaixo:
+Sintaxe de uma consulta com JOIN:
+
+SELECT 
+    {nome_coluna1}
+    ,{nome_coluna2}
+    , [... outras colunas]
+FROM {nome_tabela1}, {nome_tabela2}
+WHERE pk = fk;
+
+ERROS COMUNS NA UTILIZAÇÃO DO JOIN:
+Um dos erros mais comuns é a referenciação erronea da comparação após o WHERE pois comparam o id ao invés da FK
+O
