@@ -31,5 +31,12 @@ para ralacionar em outra. Os valores dentro da tabela tem de ser comparadas por 
 como sinal de =, quando o CROSS JOIN for usado sem a clausula ON, poderão ser usados parênteses para indicar a junção.
 
 3.	Em relação a sintaxe, em um JOIN não é necessário utilizarmos condições (WHERE) - o comando irá executar normalmente. Porém, em questão de semântica, a cada junção é necessário ter ao menos 1 condição. Explique.
+A sintaxe está sim de forma correta mas em relação a semantica não pois ele fará o produto cartesiano de todas as colunas selecionados independentemente se tem relacionamento ou não
+então para que haja o relacionamento correto é necessário aa utilização do WHERE.
+
 4.	O que é produto cartesiano? Como funciona? Qual a relação com o JOIN.
+O produto cartesianpo é a combinação de todos os dados da tabela A com a tabela B, ligando  todos os dados das colunas de A coma de B, nesse caso utilizamos no relacionamento das tabelas 
+do JOIN para obter a conbinação dos dados 
+
 5.	Na elaboração de um consulta que envolve 1587 tabelas, serão necessários, quantas condições de junção?
+1586
