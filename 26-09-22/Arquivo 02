@@ -1,8 +1,9 @@
 SINTAXE DAS JUNÇÊS DO JOIN:
-A sintaxe básica para um Join tem base e relação com um plano cartesiano portanto é preciso tabelas que tenham relação para que a combinação faça sentido, 
-ademais para que os relacionamentos façam sentido é necessário o uso da comparação da PK de uma tabela com a FK referenciando a pk da tabela tendo portanto a
+A sintaxe básica para um Join baseia-se fortemente na teoria dos conjuntos, suas operações são literalmente as operações de união, subtração e intersecção da teoria 
+de conjuntos em formas de comando no SQL. Para execuçao de tais comandos, é preciso tabelas que tenham relação para que a combinação faça sentido, 
+ademais para que os relacionamentos façam sentido é necessário o uso da comparação da PK de uma tabela, com a FK referenciando a pk da tabela tendo portanto a
 Sintaxe descrita abaixo:
-Sintaxe de uma consulta com JOIN:
+
 
 SELECT 
     {nome_coluna1}
@@ -15,33 +16,5 @@ ERROS COMUNS NA UTILIZAÇÃO DO JOIN:
 * Um dos erros mais comuns é a referenciação erronea da comparação após o WHERE pois comparam o id ao invés da FK
 * Outro erro recorrente é compara uma FK sem a devida referência 
 
-1.	Em que caso devemos utilizar o JOIN? Quais tabelas podem ser utilizando em um comando JOIN?
-O uso dos JOIN é essencial para conectar os dados entre as tabelas no banco de dados, possibilitando utilizar as tabelas que tem algum relacionamento entre si, ou seja uma
-caso de dependência entre uma tabela para com outra 
 
-2.	No caso do JOIN, o que é condição de junção. Qual cuidado devemos ter. 
- vários tipos de junções, como junção interna, junção externa (junção externa esquerda ou junção esquerda,
- junção externa direita ou junção direita e junção externa completa ) e auto-adesão.  
- A sintaxe é um pouco diferente do que você já viu até agora: A condição está contido em um EM cláusula em vez de numa ONDE cláusula.
- 
- 
-3.CUIDADOS ESSÊNCIAS PARA ELABORAR UM JOIN
-É importante que as tabelas sejam associadas em pares mesmo que podem ser juntadas com apenas um só comando, para isso é necessário uma chave estrangeira de uma tabela
-para ralacionar em outra. Os valores dentro da tabela tem de ser comparadas por um operador lógico que é definido pelo JOIN e utilizada pelo operador ON,
-como sinal de =, quando o CROSS JOIN for usado sem a clausula ON, poderão ser usados parênteses para indicar a junção.
 
-4.	Em relação a sintaxe, em um JOIN não é necessário utilizarmos condições (WHERE) - o comando irá executar normalmente. Porém, em questão de semântica, a cada junção é necessário ter ao menos 1 condição. Explique.
-A sintaxe está sim de forma correta mas em relação a semantica não pois ele fará o produto cartesiano de todas as colunas selecionados independentemente se tem relacionamento ou não
-então para que haja o relacionamento correto é necessário aa utilização do WHERE.
-
-5.	O que é produto cartesiano? Como funciona? Qual a relação com o JOIN.
-O produto cartesianpo é a combinação de todos os dados da tabela A com a tabela B, ligando  todos os dados das colunas de A coma de B, nesse caso utilizamos no relacionamento das tabelas 
-do JOIN para obter a conbinação dos dados 
-
-6.	Na elaboração de um consulta que envolve 1587 tabelas, serão necessários, quantas condições de junção?
-1586
-
-7. O que é produto cartesiano? Como funciona? Qual a relação com o JOIN.
-É uma ferramenta matemática gráfica como um projeto para analisar suas dimensões, é composto por retas numericas perpendiculares que possuem ponto em comum, ou seja é marcasdo como zero de ambas a retas que dão origem ao plano 
-carteziano pois a partir disso que vai ser possivel a localização de quaisquer pontos do plano.
-Sua principal função  é localizar os elementos de um espaço no qual o JOIN tem a mesma função.
