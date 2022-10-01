@@ -30,4 +30,4 @@ Sintaxe descrita abaixo:
     , [... outras colunas]
 **FROM** {nome_tabela1}, {nome_tabela2}, [... outras tabelas]
 **WHERE** pk = fk; <br />
- <sub> Vale ressaltar que é possível utilizar vários operadores lógicos (>= ; <=; =; <; >) no WHERE.
+ <sub> Vale ressaltar que é possível utilizar vários operadores lógicos (>= ; <=; =; <; >) no **WHERE**.
