@@ -27,7 +27,7 @@ Sintaxe descrita abaixo:
 **SELECT** 
     {nome_coluna1}
     ,{nome_coluna2}
-    , [... outras colunas]
-**FROM** {nome_tabela1}, {nome_tabela2}, [... outras tabelas]
+    , [... outras colunas]<br />
+**FROM** {nome_tabela1}, {nome_tabela2}, [... outras tabelas]<br />
 **WHERE** pk = fk; <br />
  <sub> Vale ressaltar que é possível utilizar vários operadores lógicos (>= ; <=; =; <; >) no **WHERE**.
