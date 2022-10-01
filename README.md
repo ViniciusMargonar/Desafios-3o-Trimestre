@@ -3,7 +3,7 @@
 **Equipe:** João Victor, Keren A. Cardoso, Natália A. Oliveira e Vinícius Margonar.
 
 
-# JOIN - Introdução; 
+# Quando devemos utilizar o JOIN ? Qual sua utilidade ?
 
 
 ![alt text](https://www.alphacodingskills.com/mysql/img/mysql-join.PNG)
