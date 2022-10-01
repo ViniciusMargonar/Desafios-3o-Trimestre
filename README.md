@@ -14,6 +14,6 @@ Quando você tem tabelas que a resposta de uma consulta pode estar relacionada e
 **3 - RIGHT JOIN:** Retorna todos os registros da tabela da direita e os registros correspondentes da tabela da esquerda.<br />
 **4 - CROSS JOIN:** Retorna todas as linhas das tabelas por cruzamento, ou seja, para cada linha da tabela esquerda queremos todos os linhas da tabelas direita ou vice-versa.<br />
 
-<sub> Para maior exemplificação, oberseve a imagem abaixo: <sub>
+<sub>Para maior exemplificação, oberseve a imagem abaixo:<sub>
 ![alt text](https://www.alphacodingskills.com/mysql/img/mysql-join.PNG)
-![alt text](https://www.alphacodingskills.com/mysql/img/mysql-join.PNG | width=300x300)
+<img src="https://www.alphacodingskills.com/mysql/img/mysql-join.PNG" data-canonical-src="[https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png](https://www.alphacodingskills.com/mysql/img/mysql-join.PNG)" width="200" height="400" />
