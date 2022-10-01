@@ -1,6 +1,6 @@
 # Desafios - Banco de Dados I - 3o Trimestre.
 
-**Equipe:** SQL Dolphins;<br /> 
+**Equipe: SQL Dolphins; **<br /> 
 **Integrantes:** João Victor, Keren A. Cardoso, Natália A. Oliveira e Vinícius Margonar.
 
 
