@@ -33,5 +33,6 @@ Sintaxe descrita abaixo:
 **WHERE** pk = fk; <br />
  <sub> Vale ressaltar que é possível utilizar vários operadores lógicos (>= ; <=; =; <; >) no **WHERE**.
  
- ![alt text](https://imgur.com/1MzZYwY)
+ ![img](https://imgur.com/1MzZYwY)
+
 
