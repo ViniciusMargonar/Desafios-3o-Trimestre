@@ -16,3 +16,4 @@ Quando você tem tabelas que a resposta de uma consulta pode estar relacionada e
 
 <sub> Para maior exemplificação, oberseve a imagem abaixo: <sub>
 ![alt text](https://www.alphacodingskills.com/mysql/img/mysql-join.PNG)
+![alt text](https://www.alphacodingskills.com/mysql/img/mysql-join.PNG | width=300x300)
