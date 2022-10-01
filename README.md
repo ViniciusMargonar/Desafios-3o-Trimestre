@@ -31,9 +31,7 @@ Sintaxe descrita abaixo:
     , [... outras colunas]<br />
 **FROM** {nome_tabela1}, {nome_tabela2}, [... outras tabelas]<br />
 **WHERE** pk = fk; <br />
- <sub> Vale ressaltar que é possível utilizar vários operadores lógicos (>= ; <=; =; <; >) no **WHERE**.
+ <sub> Vale ressaltar que é possível utilizar vários operadores lógicos (>= ; <=; =; <; >) no **WHERE**.<sub> <br />
  
 
-
-![LogoEquipeSql](https://user-images.githubusercontent.com/103221467/193430852-52828042-415e-4590-9ab3-4db23a24569a.png)
-
+![EquipeLogoSQL](https://user-images.githubusercontent.com/103221467/193430875-8edbd960-5b97-413c-a0c3-dcfb837ec904.png)
