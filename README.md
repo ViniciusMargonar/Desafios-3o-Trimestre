@@ -14,5 +14,19 @@ Quando você tem tabelas que a resposta de uma consulta pode estar relacionada e
 **3 - RIGHT JOIN:** Retorna todos os registros da tabela da direita e os registros correspondentes da tabela da esquerda.<br />
 **4 - CROSS JOIN:** Retorna todas as linhas das tabelas por cruzamento, ou seja, para cada linha da tabela esquerda queremos todos os linhas da tabelas direita ou vice-versa.<br />
 
-<sub>Para maior exemplificação, oberseve a imagem abaixo:<sub>
+<sub>Para melhor exemplificação, oberseve a imagem abaixo:<sub>
 ![alt text](https://www.alphacodingskills.com/mysql/img/mysql-join.PNG)
+
+# Sintaxe básica JOIN:
+ 
+A sintaxe básica para um Join baseia-se fortemente na teoria dos conjuntos, suas operações são literalmente as operações de união, subtração e intersecção da teoria 
+de conjuntos em formas de comando no SQL. Para execuçao de tais comandos, é preciso tabelas que tenham relação para que a combinação faça sentido, 
+ademais para que os relacionamentos façam sentido é necessário o uso da comparação da PK de uma tabela, com a FK referenciando a pk da tabela tendo portanto a
+Sintaxe descrita abaixo:
+  
+SELECT 
+    {nome_coluna1}
+    ,{nome_coluna2}
+    , [... outras colunas]
+FROM {nome_tabela1}, {nome_tabela2}
+WHERE pk = fk;
