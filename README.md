@@ -9,10 +9,10 @@ Quando você tem tabelas que a resposta de uma consulta pode estar relacionada e
 
 **Dentro do SQL existem alguns tipos de JOIN, sendo alguns deles:**
 
-**1** - INNER JOIN: Retorna registros que possuem valores correspondentes nas duas tabelas.<br />
-**2** - LEFT JOIN: Retorna todos os registros da tabela esquerda e os registros correspondentes da tabela direita.<br />
-**3** - RIGHT JOIN: Retorna todos os registros da tabela da direita e os registros correspondentes da tabela da esquerda.<br />
-**4** - CROSS JOIN: Retorna todas as linhas das tabelas por cruzamento, ou seja, para cada linha da tabela esquerda queremos todos os linhas da tabelas direita ou vice-versa.<br />
+**1 - INNER JOIN:** Retorna registros que possuem valores correspondentes nas duas tabelas.<br />
+**2- LEFT JOIN:** Retorna todos os registros da tabela esquerda e os registros correspondentes da tabela direita.<br />
+**3 - RIGHT JOIN:** Retorna todos os registros da tabela da direita e os registros correspondentes da tabela da esquerda.<br />
+**4 - CROSS JOIN:** Retorna todas as linhas das tabelas por cruzamento, ou seja, para cada linha da tabela esquerda queremos todos os linhas da tabelas direita ou vice-versa.<br />
 
 <sub> Para maior exemplificação, oberseve a imagem abaixo: <sub>
 ![alt text](https://www.alphacodingskills.com/mysql/img/mysql-join.PNG)
