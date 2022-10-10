@@ -34,4 +34,5 @@ Sintaxe descrita abaixo:
  <sub> Vale ressaltar que é possível utilizar vários operadores lógicos (>= ; <=; =; <; >) no **WHERE**.<sub> <br />
  
 
-![EquipeLogoSQL](https://user-images.githubusercontent.com/103221467/193430875-8edbd960-5b97-413c-a0c3-dcfb837ec904.png)
+![EquipeLogoSQL](https://user-images.githubusercontent.com/103221467/194791516-6c2c5137-2617-4077-b7cf-a47d6e7f09e3.png)
+
