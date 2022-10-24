@@ -24,14 +24,16 @@ A sintaxe básica para um Join baseia-se fortemente na teoria dos conjuntos, sua
 de conjuntos em formas de comando no SQL. Para execuçao de tais comandos, é preciso tabelas que tenham relação para que a combinação faça sentido, 
 ademais para que os relacionamentos façam sentido é necessário o uso da comparação da PK de uma tabela, com a FK referenciando a pk da tabela tendo portanto a
 Sintaxe descrita abaixo:
-  
-**SELECT** 
+
+```
+SELECT*
     {nome_coluna1}
     ,{nome_coluna2}
-    , [... outras colunas]<br />
-**FROM** {nome_tabela1}, {nome_tabela2}, [... outras tabelas]<br />
-**WHERE** pk = fk; <br />
- <sub> Vale ressaltar que é possível utilizar vários operadores lógicos (>= ; <=; =; <; >) no **WHERE**.<sub> <br />
+    , {... outras colunas}
+FROM {nome_tabela1}, {nome_tabela2}, {... outras tabelas}
+WHERE pk = fk;
+```
+<sub> Vale ressaltar que é possível utilizar vários operadores lógicos (>= ; <=; =; <; >) no **WHERE**.<sub> <br />
  
 
 ![EquipeLogoSQL](https://user-images.githubusercontent.com/103221467/194791516-6c2c5137-2617-4077-b7cf-a47d6e7f09e3.png)
