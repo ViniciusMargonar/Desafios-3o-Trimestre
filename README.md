@@ -26,7 +26,7 @@ ademais para que os relacionamentos façam sentido é necessário o uso da compa
 Sintaxe descrita abaixo:
 
 ```
-SELECT*
+SELECT
     {nome_coluna1}
     ,{nome_coluna2}
     , {... outras colunas}
